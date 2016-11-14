@@ -1,0 +1,11 @@
+token: 64_character_token_from_digital_ocean
+records:
+- domain: mydomain.com 
+  subdomains:
+    - home
+    - app
+- domain: myotherdomain.com 
+  subdomains:
+    - app
+source: http://ipecho.net/plain
+interval: 300
